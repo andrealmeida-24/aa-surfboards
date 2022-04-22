@@ -33,6 +33,9 @@ header {
 font-family: 'Montserrat', sans-serif;
 font-weight: 900;
 background-color: black;
+
+position: sticky;
+top: 0;
 }
 
 
@@ -42,12 +45,6 @@ background-color: black;
   align-items: center;
 }
 
-.flex-container img {
-  transition: transform 1s ease-in-out;
-}
-.flex-container img:hover {
-  transform: rotate(1080deg);
-}
 
 .flex-container a {
   text-decoration: none;
@@ -63,17 +60,6 @@ background-color: black;
   color: white;
 }
 
-
-
-
-
-
-
-/*HEADER HOVER COLOR --- IN
-.flex-item span:hover {
-  color: yellowgreen;
-}
-HEADER HOVER COLOR --- OFF*/
 .item1 {
   margin-right: auto;
   margin-left: 50px;
@@ -81,49 +67,23 @@ HEADER HOVER COLOR --- OFF*/
 
 .item2 {
   margin-right: 150px;
+  display: none;
 }
 
 .item3 {
   margin-right: 150px;
+    display: none;
 }
 
 .item4 {
   margin-right: 150px;
-}
-
-.item5 {
-  margin-right: 50px;
+    display: none;
 }
 
 .item6 {
   margin-right: 150px;
+    display: none;
 }
-
-.dropdown a {
-  background-color: black;
-  border: 1px solid white;
-  color: white;
-}
-.dropdown a:hover {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -150,21 +110,6 @@ HEADER HOVER COLOR --- OFF*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*PARALLAX SECTIONS*/
 section {
   position: relative;
@@ -182,16 +127,6 @@ section {
   */
   z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /*PARALLAX HEADINGS*/
@@ -215,13 +150,6 @@ h1 {
   transform: translate(-50%, -50%);
   box-shadow: none;
 }
-
-
-
-
-
-
-
 
 
 /*TEAM CONTAINER PHOTOS*/
@@ -399,12 +327,6 @@ footer {
   border-bottom: 0px solid white;
  }
 
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
- }
 
  .item6 {
   margin-right: auto;
@@ -517,13 +439,6 @@ footer {
   border-bottom: 0px solid white;
  }
 
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
- }
-
  .item6 {
   margin-right: auto;
   margin-left: auto;
@@ -634,13 +549,6 @@ footer {
   margin-left: auto;
   margin-bottom: 10px;
   border-bottom: 0px solid white;
- }
-
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
  }
 
  .item6 {
@@ -757,13 +665,6 @@ footer {
   margin-left: auto;
   margin-bottom: 10px;
   border-bottom: 0px solid white;
- }
-
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
  }
 
  .item6 {

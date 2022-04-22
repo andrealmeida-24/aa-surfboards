@@ -29,6 +29,9 @@ header {
 font-family: 'Montserrat', sans-serif;
 font-weight: 900;
 background-color: black;
+
+position: sticky;
+top: 0;
 }
 
 
@@ -36,13 +39,6 @@ background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.flex-container img {
-  transition: transform 1s ease-in-out;
-}
-.flex-container img:hover {
-  transform: rotate(1080deg);
 }
 
 .flex-container a {
@@ -59,12 +55,6 @@ background-color: black;
   color: white;
 }
 
-
-/*HEADER HOVER COLOR --- IN
-.flex-item span:hover {
-  color: yellowgreen;
-}
-HEADER HOVER COLOR --- OFF*/
 .item1 {
   margin-right: auto;
   margin-left: 50px;
@@ -72,35 +62,23 @@ HEADER HOVER COLOR --- OFF*/
 
 .item2 {
   margin-right: 150px;
+  display: none;
 }
 
 .item3 {
   margin-right: 150px;
+    display: none;
 }
 
 .item4 {
   margin-right: 150px;
-}
-
-.item5 {
-  margin-right: 50px;
+    display: none;
 }
 
 .item6 {
   margin-right: 150px;
+    display: none;
 }
-
-.dropdown a {
-  background-color: black;
-  border: 1px solid white;
-  color: white;
-}
-.dropdown a:hover {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-}
-
 
 
 /*PARALLAX EFFECT IN*/
@@ -413,13 +391,6 @@ footer {
   border-bottom: 0px solid white;
  }
 
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
- }
-
  .item6 {
   margin-right: auto;
   margin-left: auto;
@@ -550,12 +521,6 @@ footer {
   border-bottom: 0px solid white;
  }
 
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
- }
 
  .item6 {
   margin-right: auto;
@@ -682,12 +647,6 @@ footer {
   border-bottom: 0px solid white;
  }
 
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
- }
 
  .item6 {
   margin-right: auto;
@@ -820,12 +779,6 @@ footer {
   border-bottom: 0px solid white;
  }
 
- .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
- }
 
  .item6 {
   margin-right: auto;
@@ -931,12 +884,6 @@ footer {
 
 @media (min-width: 1201px) {
 
-  .item5 {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  display: none;
- }
 
  .col-xs-7 {
   display: none;
